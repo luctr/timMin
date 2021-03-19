@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính min trong mảng</title>
+</head>
+<body>
+    <script>
+        let a1=[3,5,1,8,-3,7,8]
+        let a2=[7,12,6,9,20,56,89]
+        let a3=[]
+        let a4=[0,0,0,0,0,0,0,0]
+
+        function timMin(a){
+            let b =a[0]
+            for (let i=1;i<a.length;i++){
+                if (a[i]<b){
+                    b=a[i]
+                }
+            }
+            return b;
+        }
+    let minArr1=timMin(a1)
+        console.log(minArr1)
+    let minArr2=timMin(a2)
+        console.log(minArr2)
+    let minArr3=timMin(a3)
+        console.log(minArr3)
+    let minArr4=timMin(a4)
+        console.log(minArr4)
+
+
+    </script>
+</body>
+</html>
